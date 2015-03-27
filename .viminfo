@@ -18,25 +18,25 @@ $unit
 
 # Command Line History (newest to oldest):
 :wq
+:q
+:w
+:15
+:3
+:W
+:q!
 :20
 :18
-:w
 :10
-:q
 :Wq
-:W
 :%s/units/unit/g
 :%s/
-:15
 :162
 :66
 :63
 :26
 :55
 :17
-:q!
 :wi
-:3
 :7000
 :%s/const int/int/g
 :s/const int/int/g
@@ -129,41 +129,47 @@ $unit
 	            letters += 11;
 	            break;
 ""1	LINE	0
-	dd
-"2	LINE	0
-	++ main.cpp -o LexicographicPermutations
-"3	LINE	0
-	gg
-"4	LINE	0
-	        cout << endl;
-"5	LINE	0
-	    waste();
-"6	LINE	0
-	}
-"7	LINE	0
-	    return b;
-"8	LINE	0
 	
-"9	LINE	0
+"2	LINE	0
+	dd
+"3	LINE	0
+	++ main.cpp -o LexicographicPermutations
+"4	LINE	0
+	gg
+"5	LINE	0
+	        cout << endl;
+"6	LINE	0
+	    waste();
+"7	LINE	0
 	}
+"8	LINE	0
+	    return b;
+"9	LINE	0
+	
 "q	CHAR	0
 	
 "-	CHAR	0
 	g
 
 # File marks:
-'0  2  13  ~/templates/vanillacompile.sh
-'1  2  13  ~/templates/compile.sh
-'2  2  0  ~/peuler/problems/24_LexicographicPermutations/compile.sh
-'3  23  16  ~/peuler/problems/24_LexicographicPermutations/main.cpp
-'4  20  4  ~/peuler/problems/24_LexicographicPermutations/main.cpp
-'5  18  17  ~/peuler/problems/24_LexicographicPermutations/main.cpp
-'6  19  7  ~/peuler/problems/24_LexicographicPermutations/main.cpp
-'7  10  14  ~/peuler/problems/24_LexicographicPermutations/main.cpp
-'8  1  0  ~/templates/template.cpp
-'9  2  2  ~/.gitignore
+'0  13  44  ~/peuler/problems/33_DigitCancellingFractions/main.cpp
+'1  20  8  ~/peuler/problems/33_DigitCancellingFractions/main.cpp
+'2  2  50  ~/peuler/problems/33_DigitCancellingFractions/compile.sh
+'3  1  7  ~/peuler/problems/33_DigitCancellingFractions/main.cpp
+'4  2  13  ~/templates/vanillacompile.sh
+'5  2  13  ~/templates/compile.sh
+'6  2  0  ~/peuler/problems/24_LexicographicPermutations/compile.sh
+'7  23  16  ~/peuler/problems/24_LexicographicPermutations/main.cpp
+'8  20  4  ~/peuler/problems/24_LexicographicPermutations/main.cpp
+'9  18  17  ~/peuler/problems/24_LexicographicPermutations/main.cpp
 
 # Jumplist (newest first):
+-'  13  44  ~/peuler/problems/33_DigitCancellingFractions/main.cpp
+-'  15  0  ~/peuler/problems/33_DigitCancellingFractions/main.cpp
+-'  1  0  ~/peuler/problems/33_DigitCancellingFractions/main.cpp
+-'  20  8  ~/peuler/problems/33_DigitCancellingFractions/main.cpp
+-'  2  50  ~/peuler/problems/33_DigitCancellingFractions/compile.sh
+-'  1  0  ~/peuler/problems/33_DigitCancellingFractions/compile.sh
 -'  2  13  ~/templates/vanillacompile.sh
 -'  1  0  ~/templates/vanillacompile.sh
 -'  2  13  ~/templates/compile.sh
@@ -256,15 +262,37 @@ $unit
 -'  21  0  ~/peuler/BigNumber/main.cpp
 -'  7  24  ~/peuler/BigNumber.h
 -'  10  4  ~/peuler/BigNumber.h
--'  8  24  ~/peuler/BigNumber.h
--'  6  0  ~/peuler/BigNumber.h
--'  1  0  ~/peuler/BigNumber.h
--'  9  0  ~/peuler/hello.cpp
--'  1  0  ~/peuler/hello.cpp
--'  48  30  ~/peuler/13.cpp
--'  75  8  ~/peuler/13.cpp
 
 # History of marks within files (newest to oldest):
+
+> ~/peuler/problems/33_DigitCancellingFractions/main.cpp
+	"	13	44
+	^	13	45
+	.	13	44
+	+	1	7
+	+	21	3
+	+	20	8
+	+	21	0
+	+	10	16
+	+	14	56
+	+	11	37
+	+	12	40
+	+	19	12
+	+	14	67
+	+	15	54
+	+	16	32
+	+	3	15
+	+	16	48
+	+	18	16
+	+	17	59
+	+	15	0
+	+	13	44
+
+> ~/peuler/problems/33_DigitCancellingFractions/compile.sh
+	"	2	50
+	^	2	51
+	.	2	50
+	+	2	50
 
 > ~/templates/vanillacompile.sh
 	"	2	13
