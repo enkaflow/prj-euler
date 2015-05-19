@@ -17,6 +17,7 @@
 $unit
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :w
 :11
@@ -49,7 +50,6 @@ $unit
 :9
 :8
 :vsp Date.cpp
-:wq
 :Wq
 :5
 :q!
@@ -137,18 +137,20 @@ $unit
 	>
 
 # File marks:
-'0  26  0  ~/peuler/problems/19_CountingSundays/Date.h
-'1  5  0  ~/peuler/problems/19_CountingSundays/main.cpp
-'2  2  41  ~/peuler/problems/19_CountingSundays/compile.sh
-'3  53  0  ~/peuler/problems/34_DigitFactorials/main.cpp
-'4  50  42  ~/peuler/problems/34_DigitFactorials/main.cpp
-'5  20  43  ~/peuler/problems/34_DigitFactorials/main.cpp
-'6  13  3  ~/peuler/problems/34_DigitFactorials/main.cpp
-'7  2  41  ~/peuler/problems/34_DigitFactorials/compile.sh
-'8  43  12  ~/peuler/problems/27_QuadraticPrimes/main.cpp
-'9  14  36  ~/peuler/problems/27_QuadraticPrimes/main.cpp
+'0  2  4  ~/.gitignore
+'1  26  0  ~/peuler/problems/19_CountingSundays/Date.h
+'2  5  0  ~/peuler/problems/19_CountingSundays/main.cpp
+'3  2  41  ~/peuler/problems/19_CountingSundays/compile.sh
+'4  53  0  ~/peuler/problems/34_DigitFactorials/main.cpp
+'5  50  42  ~/peuler/problems/34_DigitFactorials/main.cpp
+'6  20  43  ~/peuler/problems/34_DigitFactorials/main.cpp
+'7  13  3  ~/peuler/problems/34_DigitFactorials/main.cpp
+'8  2  41  ~/peuler/problems/34_DigitFactorials/compile.sh
+'9  43  12  ~/peuler/problems/27_QuadraticPrimes/main.cpp
 
 # Jumplist (newest first):
+-'  2  4  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  26  0  ~/peuler/problems/19_CountingSundays/Date.h
 -'  32  0  ~/peuler/problems/19_CountingSundays/Date.h
 -'  1  0  ~/peuler/problems/19_CountingSundays/Date.h
@@ -188,8 +190,7 @@ $unit
 -'  19  7  ~/peuler/problems/24_LexicographicPermutations/main.cpp
 -'  10  14  ~/peuler/problems/24_LexicographicPermutations/main.cpp
 -'  1  0  ~/templates/template.cpp
--'  2  2  ~/.gitignore
--'  1  0  ~/.gitignore
+-'  3  2  ~/.gitignore
 -'  9  0  ~/templates/template.cpp
 -'  6  2  ~/templates/template.cpp
 -'  12  66  ~/templates/template.cpp
@@ -246,9 +247,15 @@ $unit
 -'  200  37  ~/.bashrc
 -'  1  0  ~/.bashrc
 -'  3  7  ~/peuler/problems/13_LargeSum/makefile
--'  2  34  ~/peuler/problems/13_LargeSum/makefile
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	2	4
+	^	2	5
+	.	2	4
+	+	3	2
+	+	2	4
 
 > ~/peuler/problems/19_CountingSundays/Date.h
 	"	26	0
@@ -678,12 +685,6 @@ $unit
 	+	5	0
 	+	8	0
 	+	9	0
-
-> ~/.gitignore
-	"	2	2
-	^	2	3
-	.	2	2
-	+	2	2
 
 > ~/peuler/problems/22_NamesScores/main.cpp
 	"	11	20

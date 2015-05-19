@@ -1,54 +1,4 @@
 ls
-mintty &
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber -lBigNumber main.cpp 
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber -lBigNumber main.cpp 
-ls /home/Kevin/peuler/lib/BigNumber/
-man ld
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber -l:libBigNumber.so main.cpp 
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber -l:BigNumber.o main.cpp 
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber -l:BigNumber.o main.cpp 
-ls
-cd ..
-ls
-cd 17_NumberLetterCounts/
-ls
-cd ..
-ls
-cd 21_AmicableNumbers/
-ls 16
-cd ..
-ls 16_PowerDigitSum/
-ls
-ls 20_100Factorial/
-ls 20_100Factorial/
-ls
-cd 20_100Factorial/
-ls
-cp ../13_LargeSum/compile.sh .
-ls
-vim compile.sh
-ls
-./compile.sh 
-ls
-./100Factorial.exe 
-cd ..
-ls
-ls
-cd 16_PowerDigitSum/
-ls
-cat main.cpp 
-ls
-cp ../20_100Factorial/compile.sh .
-ls
-vim compile.sh 
-vim compile.sh 
-./compile.sh 
-ls
-./PowerDigitSum.exe 
-cd ..
-ls
-cd 17_NumberLetterCounts
-ls
 cd ..
 mkdir solved
 ls
@@ -498,3 +448,53 @@ vim main.cpp
 vim Date.h
 ls
 cd ..
+ls
+vim mian.cpp
+vim main.cpp 
+ls
+cd
+ls
+cd templates/
+ls
+cd ../peuler/
+ls
+cd lib
+ls
+mkdir Date
+ls
+cat BigNumber/
+ls BigNumber/
+mkdir Date/lib Date/src
+ls Date
+ls BigNumber/lib
+ls BigNumber/src
+cat BigNumber/src/compile.sh 
+cd Date/src/
+ls
+ls
+./comp
+ls
+./compile.sh
+ls -l compile.sh
+chmod 777 compile.sh
+./compile.sh 
+ls
+less ../../BigNumber/src/*.cpp
+vim Date.cpp
+./compile.sh 
+ls
+cd ..
+ls
+cd lib
+ls
+cd ~tem
+cd 
+ls
+cd templates/
+ls
+cat compile.sh
+mv compile.sh compileDate.sh
+mv compileDate.sh compileBigNum.sh
+cp compileBigNum.sh compileDate.sh
+vim compileDate.sh 
+ls
