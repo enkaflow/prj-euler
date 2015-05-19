@@ -7,4 +7,5 @@
 "CPATH
 "rvs
 "-I
+"-c
 .shell

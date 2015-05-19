@@ -10,7 +10,8 @@ public:
     int length() const;
     void print() const;
     int digitSum() const;
-
+    BigNumber addNoCarry(const BigNumber & addend); 
+    
     BigNumber operator+ (const BigNumber & addend);
     void operator= (const BigNumber & input);
     BigNumber operator* (const int);

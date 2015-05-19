@@ -1,302 +1,3 @@
-cd 13_LargeSum/
-ls
-vim Makefile 
-ls
-mintty &
-ls
-ls
-vim Makefile 
-ls
-make
-vim Makefile 
-mv Makefile makefile
-vim makefile 
-ls
-make
-vim makefile 
-make
-ls
-vim main.cpp
-make
-vim makefile 
-make all
-make all
-g++ -c -o main.o main.cpp
-g++ -c -o main.o main.cpp -I. -I/peuler_lib/BigNumber
-g++ -I/peuler_lib/BigNumber -c -o main.o main.cpp 
-g++ -I/peuler_lib/BigNumber -c -o main.o main.cpp BigNumber.cpp
-g++ -I/peuler_lib/BigNumber -c -o main.o main.cpp
-ls
-vim makefile 
-make all
-g++ -c -o main.o -I~/peuler_lib/BigNumber main.cpp
-ls
-g++ -c -o main.o -I~/peuler/lib/BigNumber main.cpp
-ls ~/peuler/lib/BigNumber/
-g++ -c -o main.o -I/home/Kevin/peuler/lib/BigNumber main.cpp
-ls
-make all
-ls
-ls
-make all
-ls
-g++ main.o -o LargeSum. -v
-ls
-cat main.o
-ls
-make all
-g++ -I/home/Kevin/peuler/lib/BigNumber main.o -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/bigNumber  main.o -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/bigNumber  main.o -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber main.o -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber BigNmber.o main.o -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber BigNumber.o main.o -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber main.cpp -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.cpp -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.co -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.o -o LargeSum.
-ls /home/Kevin/peuler/lib/BigNumber/
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.o -o LargeSum.
-ls
-cp ../../lib/BigNumber/BigNumber.o .
-ls
-g++ main.cpp BigNumber.o -o LargeSum.
-make all
-g++ -I/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.o -o LargeSum.
-g++ -I/home/Kevin/peuler/lib/BigNumber main.o BigNumber.o -o LargeSum.
-ls
-./LargeSum
-./LargeSum.
-ls
-ls LargeSum. 
-ls -l LargeSum. 
-./LargeSum
-./LargeSum.
-./LargeSum\.
-g++ -I/home/Kevin/peuler/lib/BigNumber main.o BigNumber.o -o LargeSum
-ls
-rm LargeSum.
-./LargeSum.exe 
-./LargeSum.exe < in.txt
-ls
-ls
-cd ..
-ls
-cd 16_PowerDigitSum/
-ls
-ls
-cat main.cpp 
-ls
-echo $CPATH
-echo $C_INCLUDE_PATH
-man gcc
-man gcc
-exit
-cd ~/peuler/lib/BigNumber/
-ls
-cp BigNumber.o libBigNumber.o
-ls
-gcc -shared -o libBigNumber.so BigNumber.cpp
-gcc -shared -o libBigNumber.so BigNumber.o
-g++ -shared -o libBigNumber.so BigNumber.o
-ls
-ls
-rm libBigNumber*
-mkdir src
-ls
-mv *h *cpp src
-ls
-mkdir lib
-mv BigNumber.o lib
-ls
-cd src
-ls
-cd ..
-ls
-cd src
-ls
-vim compile.sh
-ls
-cd ..
-ls
-cd lib
-ls
-rm BigNumber.o 
-cd ../src
-ls
-./compile.sh
-ls
-chmod 777 compile.sh
-./compile.sh 
-ls
-ls ../lib
-ls
-cd ~/peuler/problems/13_LargeSum/
-ls
-vim compile.sh
-ls
-rm a.exe 
-rm LargeSum.exe 
-ls
-ls
-man chmod
-ls
-ls -l compile.sh 
-man umask
-chmod u+rwx compile.sh 
-ls -l compile.sh 
-./compile.sh 
-ls
-./LargeSum.exe 
-./LargeSum.exe < in.txt
-cd ~/peuler/lib/
-cd BigNumber/
-ls
-cd src/
-ls
-vim BigNumber.
-vim *cpp
-vim main.cpp 
-vim main.cpp
-vim main.cpp
-g++ main.cpp
-./a.exe
-ls
-vim main.cpp
-vim main.cpp
-g++ main.cpp
-./a.exe
-vim main.cpp
-g++ main.cpp
-./a.exe
-vim main.cpp
-cd ..
-ls
-mkdir 23_NonAbundantSums
-mv 21_AmicableNumbers/main.cpp 23_NonAbundantSums/
-cd 23_NonAbundantSums/
-ls
-vim main.cpp
-ls
-pwd
-cd ..
-ls
-ls
-ls
-cd 25_ThousandDigitFibonacci/
-ls
-./compile.sh 
-ls
-ls
-cat Third Party Licenses.txt
-ls -a
-vim Third\ Party\ License.txt
-vim Third\ Party\ Licenses.txt
-ls
-./ThousandDigitFibonacci.exe
-./compile.sh 
-./compile.sh 
-ls
-./ThousandDigitFibonacci.exe 
-./compile.sh 
-ls
-./ThousandDigitFibonacci.exe 
-./compile.sh 
-./ThousandDigitFibonacci.exe 
-mintty &
-./compile.sh 
-./ThousandDigitFibonacci.exe 
-./compile.sh 
-./ThousandDigitFibonacci.exe 
-./compile.sh 
-./ThousandDigitFibonacci.exe 
-./compile.sh 
-./ThousandDigitFibonacci.exe 
-./compile.sh 
-./ThousandDigitFibonacci.exe 
-./ThousandDigitFi
-./compile.sh 
-./ThousandDigitFibonacci.exe 
-cd ..
-man time
-man -s 3 time
-ls
-mkdir 31_CoinSums
-ls
-cd 31_CoinSums/
-vim main.cpp
-cp ~/template.cpp main.cpp
-ls
-vim main.cpp 
-./compile.sh 
-ls
-./CoinSums.exe 
-./CoinSums.exe 
-cd ..
-ls
-mv 31_CoinSums/ solved/
-ls
-cd 17_NumberLetterCounts/
-ls
-cd ..
-ls
-cd
-ls
-mkdir templates
-mv template.cpp templates
-cd peuler/problems/solved/
-ls
-cp 13_LargeSum/compile.sh ~/templates/
-cp 31_CoinSums/compile.sh ~/templates/vanillacompile.sh
-ls
-cd ..
-ls
-cd 17_NumberLetterCounts/
-ls
-cp ~/templates/vanillacompile.sh compile.sh
-ls
-echo $CPATH
-cd peuler/
-ls
-cd problems/13_LargeSum/
-ls
-g++ main.cpp
-echo $CPATH
-man gcc
-set CPATH=:/home/Kevin/peuler/lib/BigNumber
-echo $PATH
-echo $CPATH
-CPATH=:/home/Kevin/peuler/lib/BigNumber
-echo $CPATH
-g++ main.cpp
-g++ -I/home/Kevin/peuler/lib/BigNumber main.cpp
-ls
-vim makefile
-which ar
-man ar
-man ar
-man ar
-ls
-cd ..
-ls
-cd 13_LargeSum/
-ar rvs BigNumber.a BigNumber.o
-ls
-g++ main.cpp BigNumber.a
-g++ -I/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.a
-ls
-rm a.exe
-g++ -I/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.a
-ls
-./a.exe < in.txt
-ls
-rm BigNumber.a
-ls
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber -lBigNumber main.cpp
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber -lBigNumber main.cpp BigNumber.o
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.o
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.cpp
-g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber main.cpp BigNumber.o
 ls
 mintty &
 g++ -I/home/Kevin/peuler/lib/BigNumber -L/home/Kevin/peuler/lib/BigNumber -lBigNumber main.cpp 
@@ -498,3 +199,302 @@ ls
 cat ~/templates/compile.sh 
 ls
 vim main.cpp
+man git
+gittutorial
+man gittutorial
+ls
+cd peuler/
+ls
+git create
+cd ..
+git
+git add .
+git
+git help -a
+git-init
+git init
+ls
+ls -a
+git add peuler/
+ls
+git add templates/
+cd templates/
+ls
+vim template.cpp
+ls
+g++ template.cpp 
+ls
+./a.exe
+vim template.cpp 
+g++ template.cpp 
+./a.exe
+ls
+rm a.exe
+vim template.cpp 
+ls
+git add .
+ls
+ls
+ls -a
+cd ..
+ls
+git commit -m 'initial commit'
+git config --global weijianwong@gmail.com
+git config --global user.anem "Kevin Wong"
+git config --global user.name "Kevin Wong"
+git config --global user.email "weijianwong@gmail.com"
+git commit -m 'initial commit'
+ls
+git push
+git remote add peuler github.com/enkaflow
+ls
+git push peuler
+git config --global push.default simple
+git push --set-upstream proj_euler master
+git remote add origin https://github.com/enkaflow/prj-euler.git
+git push -u origin master
+git push -u origin master
+ls
+ls -a
+vim .gitignore
+ls
+git add .
+git commit -m 'gitignore'
+git push
+ls
+ls
+cd peuler/
+ls
+cd ..
+ls
+cd templates/
+ls
+vim template.cpp 
+cd ../peuler/
+l
+ls
+cd problems/
+ls
+mkdir 24_LexicographicPermutations
+ls
+cd24
+cd 24_LexicographicPermutations/
+ls
+cp ~/templates/template.cpp main.cpp
+cp ~/templates/vanillacompile.sh .
+ls
+mv vanillacompile.sh compile.sh
+ls
+ls
+cat compile.sh 
+vim compile.sh 
+ls
+vim main.cpp 
+ls
+./compile.sh 
+vim main.cpp 
+./compile.sh 
+ls
+g++ -std=c++11 main.cpp -o LexicoraphicPermutations
+ls
+./LexicoraphicPermutations.exe 
+ls
+vim main.cpp
+vim main.cpp 
+g++ -std=c++11 main.cpp -o LexicoraphicPermutations
+./LexicoraphicPermutations.exe 
+ls
+vim main.cpp 
+./LexicoraphicPermutations.exe 
+g++ -std=c++11 main.cpp -o LexicoraphicPermutations
+./LexicoraphicPermutations.exe 
+vim main.cpp
+ls
+rm LexicoraphicPermutations.exe 
+g++ -std=c++11 main.cpp -o LexicographicPermutations
+vim compile.sh 
+ls
+vim ~/templates/compile.sh
+vim ~/templates/vanillacompile.sh 
+ls
+cd ..
+git add .
+ls
+rm 24_LexicographicPermutati
+mv 24_LexicographicPermutations/ solved
+ls
+cd ..
+git add .
+git commit -m 'cpp11, solved 24'
+git push
+ls
+cd problems/
+ls
+cd ..
+ls
+git status
+cd ..
+ls
+git add .
+git commit -m 'templates'
+git push
+ls
+cd templates/
+ls
+cd ../peuler/
+ls
+cd problems/
+ls
+mkdir 33_DigitCancellingFractions
+ls
+cd 33_DigitCancellingFractions/
+ls
+cd ..
+ls
+cd ..
+ls
+cd 
+cd templates/
+ls
+ls
+cd ..
+ls
+cd peuler/
+ls
+ls
+cat lib/BigNumber/src/BigNumber.cpp | grep static
+ls
+cd problems/
+ls
+cd 33_DigitCancellingFractions/
+ls
+vim main.cpp
+cp ~/templates/template.cpp main.cpp
+cp ~/templates/vanillacompile.sh compile.sh
+ls
+vim compile.sh 
+vim main.cpp
+ls
+./compile.sh 
+ls
+./DigitCancellingFractions.exe 
+ls
+vim main.cpp
+./compile.sh 
+./DigitCancellingFractions.exe 
+ls
+cd ..
+git add .
+cd ..
+ls
+cd
+ls
+cd peulerdf
+ls
+ls -a
+git add .
+git commit -m 'new problem'
+git push
+ls
+cd peuler/
+ls
+cd problems/
+ls
+mkdir 27_QuadraticPrimes
+ls
+mv 33_DigitCancellingFractions/ solved
+ls
+cd 27_QuadraticPrimes/
+ls
+cp ~/template/vanillacompile.sh compile.sh
+cp ~/templates/vanillacompile.sh compile.sh
+cp ~/templates/template.cpp main.cpp
+ls
+vim compile.sh 
+vim main.cpp 
+ls
+./compile.sh 
+ls
+./QuadraticPrimes.exe 
+ls
+vim main.cpp 
+./compile.sh 
+ls
+./QuadraticPrimes.exe 
+ls
+cd ..
+mv 27_QuadraticPrimes/ solved
+ls
+cd 22_NamesScores/
+ls
+cd ..
+ls
+mkdir 34_DigitFactorials
+cd 34_DigitFactorials/
+cp ~/templates/template.cpp main.cpp
+cp ~/templates/vanillacompile.sh compile.sh
+vim compile.sh 
+ls
+vim main.cpp 
+ls
+vim main.cpp 
+which find
+ls /cygdrive/c
+ls /cygdrive/c/users
+ls /cygdrive/c/users/Kevin/
+ls /cygdrive/c/users/Kevin/Music/
+find /cygdrive/c/Users/Kevin/Music -empty
+find /cygdrive/c/Users/Kevin/Music -emptyhhh
+ls
+mintty &
+cat compile.sh
+ls
+vim main.cpp 
+ls
+./compile.sh 
+./DigitFactorials.exe 
+ls
+cd ..
+ls
+mv 34_DigitFactorials/ solved/
+ls
+cd solved/
+ls
+ls 30*
+ls
+cd peuler
+ls
+cd problems/
+ls
+mkdir 19_CountingSundays
+ls 21_AmicableNumbers/
+ls 22_NamesScores/
+cd 19_CountingSundays/
+ls ~/peuler/
+ls ../
+ls ../../
+ls ../../lib
+ls ../.adsfasdf
+ls ~
+ls ~/templates/
+cat ~/templates/template.cpp ~/templates/vanillacompile.sh .
+ls
+ls ~/templates
+cat ~/templates/vanillacompile.sh 
+cat ~/templates/template.cpp 
+cp ~/templates/vanillacompile.sh .
+cp ~/templates/template.cpp .
+ls ~/templates/
+ls ~/templates/c
+cat ~/templates/compile.sh 
+ls
+alias
+mv template.cpp main.cpp
+cp vanillacompile.sh compile.sh
+cat compile.sh 
+vim compile.sh 
+ls
+vim main.cpp
+vim Date.h
+ls
+cd ..

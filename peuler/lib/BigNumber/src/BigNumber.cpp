@@ -53,6 +53,12 @@ int BigNumber::digitSum() const{
     }
     return sum;
 }
+
+void BigNumber::addNoCarry(const BigNumber & addend) {
+    for(int i = 0; i < 1000; ++i) {
+        this->_number[i] = this->_number[i] + addend._number[i];
+}
+
 //operators/////////////////////
 BigNumber BigNumber::operator+ (const BigNumber & addend) {
     BigNumber sum;
