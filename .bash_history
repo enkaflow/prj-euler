@@ -1,43 +1,3 @@
-ls
-cd ..
-mkdir solved
-ls
-mv 13_LargeSum/ 16_PowerDigitSum/ 20_100Factorial/ solved
-ls
-cd 17_NumberLetterCounts/
-ls
-cd ..
-ls
-ls
-cd 21_AmicableNumbers/
-ls
-vim main.cpp
-ls
-cp main.cpp ~/template.cpp
-ls
-vim main.cpp
-ls
-g++ main.cpp
-ls
-mintty &
-clear
-cls
-cl
-cs
-g++ main.cpp
-gcc main.cpp
-g++ main.cpp
-g++ main.cpp
-ls
-g++ main.cpp
-g++ main.cpp
-ls
-./a.exe
-vim main.cpp
-cd ../23_NonAbundantSums/
-ls
-g++ main.cpp
-./a.exe
 g++ main.cpp
 ./a.exe
 g++ main.cpp
@@ -498,3 +458,43 @@ mv compileDate.sh compileBigNum.sh
 cp compileBigNum.sh compileDate.sh
 vim compileDate.sh 
 ls
+ls
+py
+which py
+which python
+python
+ls
+ls
+clear
+ls
+ls
+l.
+ls -d .*
+git status
+git diff
+ls
+git branch -a
+git pull
+s
+ls
+..
+ls
+alias
+ls -d .*
+vim .vimrc
+v=ps
+ps
+ps
+ls
+ls -d .*
+vim .bashrc
+mintty &
+vim .bashrc
+ls
+vim .vimrc
+ls
+cd peuler
+ls
+..
+ls
+exit

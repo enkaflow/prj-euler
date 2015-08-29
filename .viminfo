@@ -8,7 +8,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/-L
+~MSle0~/lim
 
 # Last Substitute Search Pattern:
 ~MSle0&units
@@ -17,9 +17,17 @@
 $unit
 
 # Command Line History (newest to oldest):
-:wq
 :q
 :w
+:W
+:18
+:wq
+:Q
+:sp .bash_aliases
+:e .bash_aliases
+:q!
+:Wq
+:w compile2.sh
 :11
 :3
 :25
@@ -37,7 +45,6 @@ $unit
 :101
 :40
 :60
-:W
 :29
 :75
 :33
@@ -50,25 +57,25 @@ $unit
 :9
 :8
 :vsp Date.cpp
-:Wq
 :5
-:q!
 :19
 :16
 :20
-:18
 :%s/units/unit/g
 :%s/
 :162
 :66
 :63
 :55
-:17
-:wi
-:7000
-:%s/const int/int/g
 
 # Search String History (newest to oldest):
+?/lim
+?/284
+?/220
+?/-l
+?/:
+?/c
+?/B
 ?/-L
 ?/asdf
 ?/>
@@ -104,52 +111,63 @@ $unit
 
 # Registers:
 "0	LINE	0
-	void swap(Date& first, Date& second) {
-	    using std::swap;
-	    swap(first._month, second._month);
-	    swap(first._day, second._day);
-	    swap(first._year, second._year);
-	}
+	void calculateDivisorSums(int numbers[], int limit);
 ""1	LINE	0
-	}
+	
 "2	LINE	0
+	    cout << "a" << endl;
+"3	LINE	0
+	    cout << "B" << endl;    
+"4	LINE	0
+	    cout << "c" << endl;
+"5	LINE	0
+	
+"6	LINE	0
+	    //makes no assumptions about the size of 
+"7	LINE	0
+	
+"8	LINE	0
+	}
+"9	LINE	0
 	void swap(Date& first, Date& second) {
 	    using std::swap;
 	    swap(first._month, second._month);
 	    swap(first._day, second._day);
 	    swap(first._year, second._year);
-"3	LINE	0
-	    _leap = isLeapYear(_year);    
-"4	LINE	0
-	    _leap = isLeapYear(_year);    
-"5	LINE	0
-	    _leap = isLeapYear(_year);
-"6	LINE	0
-	#include<algorithm>
-"7	LINE	0
-	}
-"8	LINE	0
-	
-"9	LINE	0
-	    if(_year < d._year
 "q	CHAR	0
 	
 "-	CHAR	0
-	>
+	m
 
 # File marks:
-'0  2  42  ~/peuler/problems/solved/13_LargeSum/com2.sh
-'1  2  4  ~/.gitignore
-'2  26  0  ~/peuler/problems/19_CountingSundays/Date.h
-'3  5  0  ~/peuler/problems/19_CountingSundays/main.cpp
-'4  2  41  ~/peuler/problems/19_CountingSundays/compile.sh
-'5  53  0  ~/peuler/problems/34_DigitFactorials/main.cpp
-'6  50  42  ~/peuler/problems/34_DigitFactorials/main.cpp
-'7  20  43  ~/peuler/problems/34_DigitFactorials/main.cpp
-'8  13  3  ~/peuler/problems/34_DigitFactorials/main.cpp
-'9  2  41  ~/peuler/problems/34_DigitFactorials/compile.sh
+'0  18  1  ~/peuler/problems/21_AmicableNumbers/main.cpp
+'1  1  0  ~/peuler/problems/22_NamesScores/main.cpp
+'2  12  7  ~/.bash_aliases
+'3  1  0  ~/.bashrc
+'4  1  0  ~/.vimrc
+'5  187  0  ~/.bashrc
+'6  1  0  ~/.bash_aliases
+'7  1  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
+'8  2  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
+'9  1  0  ~/peuler/problems/solved/13_LargeSum/compile
 
 # Jumplist (newest first):
+-'  18  1  ~/peuler/problems/21_AmicableNumbers/main.cpp
+-'  14  5  ~/peuler/problems/21_AmicableNumbers/main.cpp
+-'  6  51  ~/peuler/problems/21_AmicableNumbers/main.cpp
+-'  1  0  ~/peuler/problems/21_AmicableNumbers/main.cpp
+-'  1  0  ~/peuler/problems/22_NamesScores/main.cpp
+-'  12  7  ~/.bash_aliases
+-'  1  0  ~/.bash_aliases
+-'  1  0  ~/.bashrc
+-'  1  0  ~/.vimrc
+-'  187  0  ~/.bashrc
+-'  112  0  ~/.bashrc
+-'  1  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
+-'  2  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
+-'  1  0  ~/peuler/problems/solved/13_LargeSum/compile
+-'  2  82  ~/peuler/problems/solved/13_LargeSum/compile.sh
+-'  1  0  ~/peuler/problems/solved/13_LargeSum/compile.sh
 -'  2  42  ~/peuler/problems/solved/13_LargeSum/com2.sh
 -'  1  0  ~/peuler/problems/solved/13_LargeSum/com2.sh
 -'  2  4  ~/.gitignore
@@ -198,7 +216,6 @@ $unit
 -'  6  2  ~/templates/template.cpp
 -'  12  66  ~/templates/template.cpp
 -'  11  20  ~/peuler/problems/22_NamesScores/main.cpp
--'  1  0  ~/peuler/problems/22_NamesScores/main.cpp
 -'  1  0  ~/peuler/problems/22_NamesScores/names.txt
 -'  205  4  ~/peuler/problems/17_NumberLetterCounts/main.cpp
 -'  193  0  ~/peuler/problems/17_NumberLetterCounts/main.cpp
@@ -228,24 +245,201 @@ $unit
 -'  37  50  ~/peuler/problems/23_NonAbundantSums/main.cpp
 -'  38  4  ~/peuler/problems/23_NonAbundantSums/main.cpp
 -'  1  0  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  1  0  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  13  20  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  18  28  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  7  61  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  21  17  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  11  16  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  6  0  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  5  4  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  3  0  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  2  121  ~/peuler/problems/16_PowerDigitSum/compile.sh
--'  1  0  ~/peuler/problems/16_PowerDigitSum/compile.sh
--'  2  120  ~/peuler/problems/20_100Factorial/compile.sh
--'  1  0  ~/peuler/problems/20_100Factorial/compile.sh
--'  2  116  ~/peuler/problems/13_LargeSum/compile.sh
--'  1  0  ~/peuler/problems/13_LargeSum/compile.sh
--'  2  41  ~/peuler/lib/BigNumber/src/compile.sh
+-'  42  20  ~/peuler/problems/21_AmicableNumbers/main.cpp
+-'  58  28  ~/peuler/problems/21_AmicableNumbers/main.cpp
+-'  9  61  ~/peuler/problems/21_AmicableNumbers/main.cpp
+-'  61  17  ~/peuler/problems/21_AmicableNumbers/main.cpp
+-'  284  13  ~/peuler/problems/21_AmicableNumbers/debug.txt
+-'  221  6  ~/peuler/problems/21_AmicableNumbers/debug.txt
+-'  21  0  ~/peuler/problems/21_AmicableNumbers/debug.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/peuler/problems/21_AmicableNumbers/main.cpp
+	"	18	1
+	^	18	2
+	.	18	1
+	+	40	26
+	+	57	4
+	+	43	3
+	+	40	0
+	+	41	15
+	+	8	34
+	+	61	0
+	+	61	3
+	+	61	28
+	+	61	20
+	+	56	8
+	+	55	11
+	+	42	23
+	+	55	20
+	+	56	9
+	+	59	18
+	+	9	34
+	+	9	4
+	+	9	20
+	+	9	0
+	+	9	22
+	+	8	0
+	+	5	0
+	+	61	17
+	+	8	0
+	+	61	0
+	+	43	20
+	+	40	14
+	+	9	0
+	+	5	14
+	+	9	61
+	+	58	28
+	+	42	20
+	+	14	3
+	+	5	0
+	+	6	51
+	+	44	0
+	+	45	0
+	+	45	53
+	+	54	0
+	+	54	0
+	+	53	4
+	+	49	37
+	+	52	8
+	+	51	15
+	+	46	40
+	+	46	44
+	+	47	0
+	+	47	36
+	+	48	22
+	+	49	24
+	+	51	31
+	+	14	43
+	+	6	46
+	+	45	46
+	+	21	3
+	+	14	0
+	+	12	23
+	+	11	30
+	+	12	37
+	+	29	4
+	+	22	7
+	+	21	23
+	+	28	20
+	+	28	8
+	+	27	40
+	+	29	6
+	+	33	16
+	+	21	16
+	+	25	11
+	+	13	0
+	+	33	37
+	+	36	4
+	+	33	16
+	+	35	20
+	+	38	24
+	+	37	0
+	+	40	0
+	+	21	22
+	+	33	22
+	+	13	0
+	+	13	23
+	+	15	23
+	+	31	23
+	+	37	3
+	+	23	26
+	+	24	11
+	+	31	0
+	+	15	0
+	+	13	0
+	+	28	9
+	+	29	5
+	+	30	0
+	+	15	0
+	+	18	4
+	+	17	52
+	+	49	23
+	+	16	1
+	+	17	1
+	+	18	1
+
+> ~/peuler/problems/21_AmicableNumbers/debug.txt
+	"	284	13
+
+> ~/peuler/problems/21_AmicableNumbers/compile.sh
+	"	2	41
+	^	2	42
+	.	2	41
+	+	2	41
+
+> ~/peuler/problems/22_NamesScores/compile.sh
+	"	2	26
+	^	2	27
+	.	2	26
+	+	2	26
+
+> ~/peuler/problems/22_NamesScores/main.cpp
+	"	1	0
+	^	11	21
+	.	11	0
+	+	10	3
+	+	2	15
+	+	10	0
+	+	3	15
+	+	10	9
+	+	6	0
+	+	10	0
+	+	18	34
+	+	15	4
+	+	12	21
+	+	13	17
+	+	11	0
+
+> ~/.bash_aliases
+	"	12	7
+	^	12	8
+	.	12	7
+	+	1	16
+	+	2	4
+	+	1	6
+	+	14	0
+	+	2	0
+	+	10	17
+	+	12	7
+
+> ~/.bashrc
+	"	1	0
+	^	87	0
+	.	85	0
+	+	200	0
+	+	83	0
+	+	84	0
+	+	85	0
+
+> ~/.vimrc
+	"	1	0
+	^	1	15
+	.	1	15
+	+	16	10
+	+	2	0
+	+	2	0
+	+	2	0
+	+	1	15
+
+> ~/peuler/problems/solved/13_LargeSum/compile2.sh
+	"	1	0
+	^	2	85
+	.	2	84
+	+	2	82
+	+	2	0
+	+	2	84
+
+> ~/peuler/problems/solved/13_LargeSum/compile
+	"	1	0
+
+> ~/peuler/problems/solved/13_LargeSum/compile.sh
+	"	2	82
+	^	2	83
+	.	2	82
+	+	2	82
+	i	2	82
 
 > ~/peuler/problems/solved/13_LargeSum/com2.sh
 	"	2	42
@@ -689,23 +883,6 @@ $unit
 	+	8	0
 	+	9	0
 
-> ~/peuler/problems/22_NamesScores/main.cpp
-	"	11	20
-	^	11	21
-	.	11	0
-	+	10	3
-	+	2	15
-	+	10	0
-	+	3	15
-	+	10	9
-	+	6	0
-	+	10	0
-	+	18	34
-	+	15	4
-	+	12	21
-	+	13	17
-	+	11	0
-
 > ~/peuler/problems/22_NamesScores/names.txt
 	"	1	0
 
@@ -1019,59 +1196,6 @@ $unit
 > ~/peuler/problems/23_NonAbundantSums/abundantNumbers
 	"	6883	4
 
-> ~/peuler/problems/21_AmicableNumbers/main.cpp
-	"	1	0
-	^	13	21
-	.	13	20
-	+	1	18
-	+	8	13
-	+	9	0
-	+	6	0
-	+	2	0
-	+	3	19
-	+	7	0
-	+	4	0
-	+	1	0
-	+	4	0
-	+	5	18
-	+	11	26
-	+	5	21
-	+	20	0
-	+	13	4
-	+	11	26
-	+	17	4
-	+	14	3
-	+	11	0
-	+	12	15
-	+	6	34
-	+	21	0
-	+	21	3
-	+	21	28
-	+	21	20
-	+	16	8
-	+	15	11
-	+	13	23
-	+	15	20
-	+	16	9
-	+	19	18
-	+	7	34
-	+	7	4
-	+	7	20
-	+	7	0
-	+	7	22
-	+	6	0
-	+	5	0
-	+	21	17
-	+	6	0
-	+	21	0
-	+	14	20
-	+	11	14
-	+	7	0
-	+	5	14
-	+	7	61
-	+	18	28
-	+	13	20
-
 > ~/peuler/problems/16_PowerDigitSum/compile.sh
 	"	2	121
 	^	2	122
@@ -1150,12 +1274,6 @@ $unit
 	+	14	0
 	+	15	0
 	+	3	7
-
-> ~/.bashrc
-	"	200	37
-	^	200	38
-	.	200	0
-	+	200	0
 
 > ~/peuler/problems/13_LargeSum/ma
 	"	1	0
@@ -1665,13 +1783,3 @@ $unit
 	+	45	38
 	+	47	30
 	+	48	30
-
-> ~/.vimrc
-	"	1	14
-	^	1	15
-	.	1	15
-	+	16	10
-	+	2	0
-	+	2	0
-	+	2	0
-	+	1	15
