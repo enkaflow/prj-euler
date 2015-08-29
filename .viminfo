@@ -17,11 +17,11 @@
 $unit
 
 # Command Line History (newest to oldest):
+:wq
 :q
 :w
 :W
 :18
-:wq
 :Q
 :sp .bash_aliases
 :e .bash_aliases
@@ -140,18 +140,20 @@ $unit
 	m
 
 # File marks:
-'0  18  1  ~/peuler/problems/21_AmicableNumbers/main.cpp
-'1  1  0  ~/peuler/problems/22_NamesScores/main.cpp
-'2  12  7  ~/.bash_aliases
-'3  1  0  ~/.bashrc
-'4  1  0  ~/.vimrc
-'5  187  0  ~/.bashrc
-'6  1  0  ~/.bash_aliases
-'7  1  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
-'8  2  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
-'9  1  0  ~/peuler/problems/solved/13_LargeSum/compile
+'0  5  0  ~/.gitignore
+'1  18  1  ~/peuler/problems/21_AmicableNumbers/main.cpp
+'2  1  0  ~/peuler/problems/22_NamesScores/main.cpp
+'3  12  7  ~/.bash_aliases
+'4  1  0  ~/.bashrc
+'5  1  0  ~/.vimrc
+'6  187  0  ~/.bashrc
+'7  1  0  ~/.bash_aliases
+'8  1  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
+'9  2  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
 
 # Jumplist (newest first):
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
 -'  18  1  ~/peuler/problems/21_AmicableNumbers/main.cpp
 -'  14  5  ~/peuler/problems/21_AmicableNumbers/main.cpp
 -'  6  51  ~/peuler/problems/21_AmicableNumbers/main.cpp
@@ -171,7 +173,6 @@ $unit
 -'  2  42  ~/peuler/problems/solved/13_LargeSum/com2.sh
 -'  1  0  ~/peuler/problems/solved/13_LargeSum/com2.sh
 -'  2  4  ~/.gitignore
--'  1  0  ~/.gitignore
 -'  26  0  ~/peuler/problems/19_CountingSundays/Date.h
 -'  32  0  ~/peuler/problems/19_CountingSundays/Date.h
 -'  1  0  ~/peuler/problems/19_CountingSundays/Date.h
@@ -249,11 +250,16 @@ $unit
 -'  58  28  ~/peuler/problems/21_AmicableNumbers/main.cpp
 -'  9  61  ~/peuler/problems/21_AmicableNumbers/main.cpp
 -'  61  17  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  284  13  ~/peuler/problems/21_AmicableNumbers/debug.txt
--'  221  6  ~/peuler/problems/21_AmicableNumbers/debug.txt
--'  21  0  ~/peuler/problems/21_AmicableNumbers/debug.txt
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	5	0
+	^	5	0
+	.	4	11
+	+	3	2
+	+	2	4
+	+	4	11
 
 > ~/peuler/problems/21_AmicableNumbers/main.cpp
 	"	18	1
@@ -446,13 +452,6 @@ $unit
 	^	2	43
 	.	2	43
 	+	2	43
-
-> ~/.gitignore
-	"	2	4
-	^	2	5
-	.	2	4
-	+	3	2
-	+	2	4
 
 > ~/peuler/problems/19_CountingSundays/Date.h
 	"	26	0
