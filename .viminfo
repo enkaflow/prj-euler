@@ -17,15 +17,20 @@
 $unit
 
 # Command Line History (newest to oldest):
-:wq
 :q
+:wq
+:63
+:57
+:! ./compile.sh
+:vsp %:r.h
+:q!
+:Q
 :w
+:vsp %:r.cpp
 :W
 :18
-:Q
 :sp .bash_aliases
 :e .bash_aliases
-:q!
 :Wq
 :w compile2.sh
 :11
@@ -62,11 +67,6 @@ $unit
 :16
 :20
 :%s/units/unit/g
-:%s/
-:162
-:66
-:63
-:55
 
 # Search String History (newest to oldest):
 ?/lim
@@ -113,54 +113,69 @@ $unit
 "0	LINE	0
 	void calculateDivisorSums(int numbers[], int limit);
 ""1	LINE	0
-	
+	    static int sumProperDivisors(int);
 "2	LINE	0
-	    cout << "a" << endl;
+	
+	
+	};
 "3	LINE	0
-	    cout << "B" << endl;    
+	    static int errorCode;
 "4	LINE	0
-	    cout << "c" << endl;
+	class NumOps {
+	public:
 "5	LINE	0
 	
 "6	LINE	0
-	    //makes no assumptions about the size of 
+	    cout << "a" << endl;
 "7	LINE	0
-	
+	    cout << "B" << endl;    
 "8	LINE	0
-	}
+	    cout << "c" << endl;
 "9	LINE	0
-	void swap(Date& first, Date& second) {
-	    using std::swap;
-	    swap(first._month, second._month);
-	    swap(first._day, second._day);
-	    swap(first._year, second._year);
+	
 "q	CHAR	0
 	
 "-	CHAR	0
 	m
 
 # File marks:
-'0  5  0  ~/.gitignore
-'1  18  1  ~/peuler/problems/21_AmicableNumbers/main.cpp
-'2  1  0  ~/peuler/problems/22_NamesScores/main.cpp
-'3  12  7  ~/.bash_aliases
-'4  1  0  ~/.bashrc
-'5  1  0  ~/.vimrc
-'6  187  0  ~/.bashrc
-'7  1  0  ~/.bash_aliases
-'8  1  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
-'9  2  0  ~/peuler/problems/solved/13_LargeSum/compile2.sh
+'0  1  0  ~/.gitignore
+'1  13  16  ~/.bash_aliases
+'2  23  3  ~/peuler/lib/NumOps/src/NumOps.cpp
+'3  1  9  ~/peuler/lib/NumOps/src/NumOps.cpp
+'4  1  0  ~/peuler/lib/NumOps/NumOps.cpp
+'5  60  4  ~/peuler/lib/BigNumber/src/BigNumber.cpp
+'6  7  0  ~/peuler/lib/BigNumber/src/BigNumber.h
+'7  57  0  ~/peuler/lib/BigNumber/src/BigNumber.cpp
+'8  2  6  ~/peuler/lib/NumOps/src/compile.sh
+'9  1  0  ~/peuler/lib/NumOps/src/compile.sh
 
 # Jumplist (newest first):
--'  5  0  ~/.gitignore
 -'  1  0  ~/.gitignore
+-'  13  16  ~/.bash_aliases
+-'  15  0  ~/.bash_aliases
+-'  1  0  ~/.bash_aliases
+-'  23  3  ~/peuler/lib/NumOps/src/NumOps.cpp
+-'  1  0  ~/peuler/lib/NumOps/src/NumOps.cpp
+-'  1  0  ~/peuler/lib/NumOps/NumOps.cpp
+-'  60  4  ~/peuler/lib/BigNumber/src/BigNumber.cpp
+-'  1  0  ~/peuler/lib/BigNumber/src/BigNumber.cpp
+-'  7  0  ~/peuler/lib/BigNumber/src/BigNumber.h
+-'  57  0  ~/peuler/lib/BigNumber/src/BigNumber.cpp
+-'  2  6  ~/peuler/lib/NumOps/src/compile.sh
+-'  1  0  ~/peuler/lib/NumOps/src/compile.sh
+-'  9  0  ~/peuler/lib/NumOps/src/NumOps.h
+-'  7  0  ~/peuler/lib/NumOps/src/NumOps.h
+-'  1  0  ~/peuler/lib/NumOps/src/NumOps.h
+-'  28  0  ~/peuler/lib/NumOps/src/NumOps.cpp
+-'  1  0  ~/peuler/lib/NumOps/src/BigNumber.h
+-'  5  0  ~/.gitignore
 -'  18  1  ~/peuler/problems/21_AmicableNumbers/main.cpp
 -'  14  5  ~/peuler/problems/21_AmicableNumbers/main.cpp
 -'  6  51  ~/peuler/problems/21_AmicableNumbers/main.cpp
 -'  1  0  ~/peuler/problems/21_AmicableNumbers/main.cpp
 -'  1  0  ~/peuler/problems/22_NamesScores/main.cpp
 -'  12  7  ~/.bash_aliases
--'  1  0  ~/.bash_aliases
 -'  1  0  ~/.bashrc
 -'  1  0  ~/.vimrc
 -'  187  0  ~/.bashrc
@@ -233,33 +248,111 @@ $unit
 -'  26  19  ~/peuler/problems/31_CoinSums/main.cpp
 -'  7  17  ~/peuler/problems/31_CoinSums/main.cpp
 -'  1  0  ~/peuler/problems/31_CoinSums/main.cpp
--'  3  18  ~/peuler/problems/31_CoinSums/main.cpp
--'  45  0  ~/peuler/problems/25_ThousandDigitFibonacci/main.cpp
--'  1  0  ~/peuler/problems/25_ThousandDigitFibonacci/main.cpp
--'  2  130  ~/peuler/problems/25_ThousandDigitFibonacci/compile.sh
--'  1  0  ~/peuler/problems/25_ThousandDigitFibonacci/compile.sh
--'  31  52  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  3  12  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  5  0  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  17  8  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  48  0  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  37  50  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  38  4  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  1  0  ~/peuler/problems/23_NonAbundantSums/main.cpp
--'  42  20  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  58  28  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  9  61  ~/peuler/problems/21_AmicableNumbers/main.cpp
--'  61  17  ~/peuler/problems/21_AmicableNumbers/main.cpp
 
 # History of marks within files (newest to oldest):
 
 > ~/.gitignore
-	"	5	0
+	"	1	0
 	^	5	0
 	.	4	11
 	+	3	2
 	+	2	4
 	+	4	11
+
+> ~/.bash_aliases
+	"	13	16
+	^	13	17
+	.	13	16
+	+	1	16
+	+	2	4
+	+	1	6
+	+	16	0
+	+	2	0
+	+	10	17
+	+	12	7
+	+	15	16
+	+	15	0
+	+	16	0
+	+	13	16
+
+> ~/peuler/lib/NumOps/src/NumOps.cpp
+	"	23	3
+	^	23	4
+	.	8	7
+	+	29	5
+	+	25	17
+	+	4	23
+	+	8	4
+	+	6	10
+	+	4	21
+	+	6	11
+	+	4	25
+	+	6	20
+	+	5	33
+	+	6	39
+	+	7	37
+	+	9	3
+	+	11	24
+	+	19	4
+	+	11	23
+	+	15	11
+	+	13	27
+	+	16	19
+	+	14	22
+	+	18	18
+	+	20	0
+	+	23	4
+	+	22	16
+	+	1	9
+	+	10	4
+	+	9	7
+	+	8	7
+
+> ~/peuler/lib/NumOps/NumOps.cpp
+	"	1	0
+
+> ~/peuler/lib/BigNumber/src/BigNumber.cpp
+	"	60	4
+	^	60	5
+	.	60	4
+	+	60	4
+
+> ~/peuler/lib/BigNumber/src/BigNumber.h
+	"	7	0
+
+> ~/peuler/lib/NumOps/src/compile.sh
+	"	2	6
+	^	2	7
+	.	3	0
+	+	2	34
+	+	3	0
+
+> ~/peuler/lib/NumOps/src/NumOps.h
+	"	9	0
+	.	9	0
+	+	12	5
+	+	9	1
+	+	6	12
+	+	4	15
+	+	10	18
+	+	7	4
+	+	6	13
+	+	7	14
+	+	6	14
+	+	7	14
+	+	9	0
+	+	6	7
+	+	6	17
+	+	7	15
+	+	6	0
+	+	9	0
+	+	7	0
+	+	5	0
+	+	8	23
+	+	9	0
+
+> ~/peuler/lib/NumOps/src/BigNumber.h
+	"	1	0
 
 > ~/peuler/problems/21_AmicableNumbers/main.cpp
 	"	18	1
@@ -397,18 +490,6 @@ $unit
 	+	12	21
 	+	13	17
 	+	11	0
-
-> ~/.bash_aliases
-	"	12	7
-	^	12	8
-	.	12	7
-	+	1	16
-	+	2	4
-	+	1	6
-	+	14	0
-	+	2	0
-	+	10	17
-	+	12	7
 
 > ~/.bashrc
 	"	1	0
@@ -1042,9 +1123,6 @@ $unit
 	^	2	24
 	.	2	23
 	+	2	23
-
-> ~/peuler/lib/BigNumber/src/BigNumber.cpp
-	"	1	8
 
 > ~/peuler/problems/25_ThousandDigitFibonacci/main.cpp
 	"	45	0

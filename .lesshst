@@ -18,4 +18,5 @@
 "-C
 "-F
 "-C
-.shell
+"-c
+"recursive

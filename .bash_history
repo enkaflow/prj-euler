@@ -1,183 +1,3 @@
-g++ main.cpp
-./a.exe
-g++ main.cpp
-g++ main.cpp
-./a.exe
-g++ main.cpp
-g++ main.cpp
-g++ main.cpp
-./a.exe
-g++ main.cpp
-./a.exe > abundantNumbers
-ls
-vim abundantNumbers 
-ls
-vim compile.sh
-umask u+x compile.sh
-ls -l compile.sh 
-umask u+rwx compile.sh
-ls
-ls -l compile.sh 
-./compile.sh
-h
-history
-ls
-chmod u+rwx compile.sh 
-ls
-./compile.sh 
-ls
-rm a
-rm a.
-rm a.exe[A
-ls
-./NonAbundantSums.exe 
-ls
-./compile.sh 
-./compile.sh 
-./compile.sh 
-./compile.sh 
-ls
-./NonAbundantSums.exe 
-cd ..
-ls
-mv 23_NonAbundantSums/ solved
-mv 23_NonAbundantSums/ solved
-ls
-mkdir 25_ThousandDigitFibonacci
-ls
-cd 25_ThousandDigitFibonacci/
-cp ~/template.cpp main.cpp
-ls
-cp ../solved/13_LargeSum/compile.sh .
-vim compile.sh 
-ls
-less ../solved/13_LargeSum/main.cpp
-ls
-vim main.cpp
-ls
-cd ..
-mv 25_ThousandDigitFibonacci/ solved
-ls
-ls
-cd 31
-cd 31_CoinSums/
-ls
-ls ../17_NumberLetterCounts/
-ls
- ../solved/
-ls ../solved/
-ls ../solved/23_NonAbundantSums/
-cat ../solved/23_NonAbundantSums/compile.sh 
-vim compile.sh
-ls
-chmod u+x compile.sh 
-ls -l compile.sh 
-cd ..
-cd 17_NumberLetterCounts/
-ls
-vim main.cpp
-./compile.sh 
-vim main.cpp 
-./compile.sh 
-ls
-./CoinSums.exe 
-vim main.cpp 
-./CoinSums.exe 
-./compile.sh 
-./Coin 2>nums
-./CoinSums.exe 2>nums
-ls
-./compile.sh 
-./CoinSums.exe 
-ls
-cd ..
-ls
-mv 17_NumberLetterCounts/ solved
-ls
-ls
-cd 22_NamesScores/
-ls
-cat names.txt 
-vim names.txt 
-ls
-vim main.cpp
-cp ~/templates/template.cpp main.cpp
-cp ~/templates/vanillacompile.sh compile.sh
-ls
-cat compile.sh 
-ls
-cat ~/templates/compile.sh 
-ls
-vim main.cpp
-man git
-gittutorial
-man gittutorial
-ls
-cd peuler/
-ls
-git create
-cd ..
-git
-git add .
-git
-git help -a
-git-init
-git init
-ls
-ls -a
-git add peuler/
-ls
-git add templates/
-cd templates/
-ls
-vim template.cpp
-ls
-g++ template.cpp 
-ls
-./a.exe
-vim template.cpp 
-g++ template.cpp 
-./a.exe
-ls
-rm a.exe
-vim template.cpp 
-ls
-git add .
-ls
-ls
-ls -a
-cd ..
-ls
-git commit -m 'initial commit'
-git config --global weijianwong@gmail.com
-git config --global user.anem "Kevin Wong"
-git config --global user.name "Kevin Wong"
-git config --global user.email "weijianwong@gmail.com"
-git commit -m 'initial commit'
-ls
-git push
-git remote add peuler github.com/enkaflow
-ls
-git push peuler
-git config --global push.default simple
-git push --set-upstream proj_euler master
-git remote add origin https://github.com/enkaflow/prj-euler.git
-git push -u origin master
-git push -u origin master
-ls
-ls -a
-vim .gitignore
-ls
-git add .
-git commit -m 'gitignore'
-git push
-ls
-ls
-cd peuler/
-ls
-cd ..
-ls
-cd templates/
 ls
 vim template.cpp 
 cd ../peuler/
@@ -498,3 +318,183 @@ ls
 ..
 ls
 exit
+ls
+cd peuler/
+ls
+l
+alias
+man ls
+man ls
+ls
+ls
+l
+alias
+ls
+cd problems/22_NamesScores/
+ls
+cat names.txt 
+mintty &
+ls
+vim compile.sh 
+./compile.sh 
+vim compile.sh 
+..
+cd 21_AmicableNumbers/
+ls
+vim compile.sh 
+./compile.sh 
+ls
+./AmicableNumbers.exe 
+./AmicableNumbers.exe 
+./AmicableNumbers.exe 
+./compile.sh 
+./AmicableNumbers.exe
+./compile.sh 
+./AmicableNumbers.exe
+./compile.sh 
+./AmicableNumbers.exe
+./compile.sh 
+./copm
+./compile.sh 
+./AmicableNumbers.exe > debug.txt
+vim debug.txt 
+./compile.sh 
+./compile.sh 
+./AmicableNumbers.exe
+..
+cd
+vim .gitignore
+git pull
+git branch -a
+ls
+cd peuler/
+ls
+cd lib
+ls
+mkdir NumOps
+cd NumOps/
+ls ../BigNumber/
+mkdir lib
+mkdir src
+ls
+ls ../BigNumber/lib/
+ls ../BigNumber/src/
+ls
+cd src/
+cp ../../BigNumber/src/* .
+ls
+cat compile.sh 
+vim compile.sh 
+ls
+vim BigNumber.h
+ls
+..
+cd
+ls
+cd templates/
+ls
+ls
+..
+ls
+cd lib
+ls
+cd NumOps/
+ls
+cd src
+ls
+rm *cpp *.h
+vim NumOps.cpp
+mintty &
+cd
+ls
+cd templates/
+ls
+cat compileBigNum.sh 
+..
+ls
+less .bashrc
+ls
+cd peuler/
+ls
+cd lib/
+ls
+cd BigNumber/
+ls
+.
+..
+..
+ls
+cd problems/
+ls
+cd
+vim .bashrc
+vim .bash_aliases 
+ls
+cd templates/
+ls
+..
+ls
+cd peuler/
+ls
+cd problems/
+ls
+cd 21_AmicableNumbers/
+ls
+..
+cd 22_NamesScores/
+ls
+vim main.cpp
+..
+cd 21_AmicableNumbers/
+ls
+cp ~/templates/template.cpp 
+cp ~/templates/template.cpp .
+cp ~/templates/vanillacompile.sh 
+cp ~/templates/vanillacompile.sh compile.sh
+ls
+mv template.cpp main.cpp
+ls
+vim main.cpp 
+..
+ls
+mv 22_NamesScores/ solved/
+..
+..
+ls
+git status
+git add
+git add .
+git status
+git commit -m 'problem 21'
+git add *
+git status
+git add .
+git status
+git diff
+git commit -m 'modify .gitignore'
+git diff
+git push
+git push
+git push
+ls
+ls
+cd peuler/
+ls
+cd problems/
+mintty &
+git status
+alias
+cd
+ls
+l.
+vim .bash_aliases
+ls
+ls
+alias
+gvim
+which gvim
+/usr/bin/gvim
+which startxwin
+xterm
+ps
+xterm &
