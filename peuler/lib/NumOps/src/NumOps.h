@@ -3,9 +3,11 @@
 
 namespace kdubs{
 
-    static bool isPrime(int);
-    static int digitSum(int);
-    static int numProperDivisors(int);
+    bool isPrime(int);
+    bool isSquare(int);
+    int digitSum(int);
+    int numProperDivisors(int);
+        
 
 } //namespace kdubs
 

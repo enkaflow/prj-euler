@@ -1,277 +1,3 @@
-ls
-vim template.cpp 
-cd ../peuler/
-l
-ls
-cd problems/
-ls
-mkdir 24_LexicographicPermutations
-ls
-cd24
-cd 24_LexicographicPermutations/
-ls
-cp ~/templates/template.cpp main.cpp
-cp ~/templates/vanillacompile.sh .
-ls
-mv vanillacompile.sh compile.sh
-ls
-ls
-cat compile.sh 
-vim compile.sh 
-ls
-vim main.cpp 
-ls
-./compile.sh 
-vim main.cpp 
-./compile.sh 
-ls
-g++ -std=c++11 main.cpp -o LexicoraphicPermutations
-ls
-./LexicoraphicPermutations.exe 
-ls
-vim main.cpp
-vim main.cpp 
-g++ -std=c++11 main.cpp -o LexicoraphicPermutations
-./LexicoraphicPermutations.exe 
-ls
-vim main.cpp 
-./LexicoraphicPermutations.exe 
-g++ -std=c++11 main.cpp -o LexicoraphicPermutations
-./LexicoraphicPermutations.exe 
-vim main.cpp
-ls
-rm LexicoraphicPermutations.exe 
-g++ -std=c++11 main.cpp -o LexicographicPermutations
-vim compile.sh 
-ls
-vim ~/templates/compile.sh
-vim ~/templates/vanillacompile.sh 
-ls
-cd ..
-git add .
-ls
-rm 24_LexicographicPermutati
-mv 24_LexicographicPermutations/ solved
-ls
-cd ..
-git add .
-git commit -m 'cpp11, solved 24'
-git push
-ls
-cd problems/
-ls
-cd ..
-ls
-git status
-cd ..
-ls
-git add .
-git commit -m 'templates'
-git push
-ls
-cd templates/
-ls
-cd ../peuler/
-ls
-cd problems/
-ls
-mkdir 33_DigitCancellingFractions
-ls
-cd 33_DigitCancellingFractions/
-ls
-cd ..
-ls
-cd ..
-ls
-cd 
-cd templates/
-ls
-ls
-cd ..
-ls
-cd peuler/
-ls
-ls
-cat lib/BigNumber/src/BigNumber.cpp | grep static
-ls
-cd problems/
-ls
-cd 33_DigitCancellingFractions/
-ls
-vim main.cpp
-cp ~/templates/template.cpp main.cpp
-cp ~/templates/vanillacompile.sh compile.sh
-ls
-vim compile.sh 
-vim main.cpp
-ls
-./compile.sh 
-ls
-./DigitCancellingFractions.exe 
-ls
-vim main.cpp
-./compile.sh 
-./DigitCancellingFractions.exe 
-ls
-cd ..
-git add .
-cd ..
-ls
-cd
-ls
-cd peulerdf
-ls
-ls -a
-git add .
-git commit -m 'new problem'
-git push
-ls
-cd peuler/
-ls
-cd problems/
-ls
-mkdir 27_QuadraticPrimes
-ls
-mv 33_DigitCancellingFractions/ solved
-ls
-cd 27_QuadraticPrimes/
-ls
-cp ~/template/vanillacompile.sh compile.sh
-cp ~/templates/vanillacompile.sh compile.sh
-cp ~/templates/template.cpp main.cpp
-ls
-vim compile.sh 
-vim main.cpp 
-ls
-./compile.sh 
-ls
-./QuadraticPrimes.exe 
-ls
-vim main.cpp 
-./compile.sh 
-ls
-./QuadraticPrimes.exe 
-ls
-cd ..
-mv 27_QuadraticPrimes/ solved
-ls
-cd 22_NamesScores/
-ls
-cd ..
-ls
-mkdir 34_DigitFactorials
-cd 34_DigitFactorials/
-cp ~/templates/template.cpp main.cpp
-cp ~/templates/vanillacompile.sh compile.sh
-vim compile.sh 
-ls
-vim main.cpp 
-ls
-vim main.cpp 
-which find
-ls /cygdrive/c
-ls /cygdrive/c/users
-ls /cygdrive/c/users/Kevin/
-ls /cygdrive/c/users/Kevin/Music/
-find /cygdrive/c/Users/Kevin/Music -empty
-find /cygdrive/c/Users/Kevin/Music -emptyhhh
-ls
-mintty &
-cat compile.sh
-ls
-vim main.cpp 
-ls
-./compile.sh 
-./DigitFactorials.exe 
-ls
-cd ..
-ls
-mv 34_DigitFactorials/ solved/
-ls
-cd solved/
-ls
-ls 30*
-ls
-cd peuler
-ls
-cd problems/
-ls
-mkdir 19_CountingSundays
-ls 21_AmicableNumbers/
-ls 22_NamesScores/
-cd 19_CountingSundays/
-ls ~/peuler/
-ls ../
-ls ../../
-ls ../../lib
-ls ../.adsfasdf
-ls ~
-ls ~/templates/
-cat ~/templates/template.cpp ~/templates/vanillacompile.sh .
-ls
-ls ~/templates
-cat ~/templates/vanillacompile.sh 
-cat ~/templates/template.cpp 
-cp ~/templates/vanillacompile.sh .
-cp ~/templates/template.cpp .
-ls ~/templates/
-ls ~/templates/c
-cat ~/templates/compile.sh 
-ls
-alias
-mv template.cpp main.cpp
-cp vanillacompile.sh compile.sh
-cat compile.sh 
-vim compile.sh 
-ls
-vim main.cpp
-vim Date.h
-ls
-cd ..
-ls
-vim mian.cpp
-vim main.cpp 
-ls
-cd
-ls
-cd templates/
-ls
-cd ../peuler/
-ls
-cd lib
-ls
-mkdir Date
-ls
-cat BigNumber/
-ls BigNumber/
-mkdir Date/lib Date/src
-ls Date
-ls BigNumber/lib
-ls BigNumber/src
-cat BigNumber/src/compile.sh 
-cd Date/src/
-ls
-ls
-./comp
-ls
-./compile.sh
-ls -l compile.sh
-chmod 777 compile.sh
-./compile.sh 
-ls
-less ../../BigNumber/src/*.cpp
-vim Date.cpp
-./compile.sh 
-ls
-cd ..
-ls
-cd lib
-ls
-cd ~tem
-cd 
-ls
-cd templates/
-ls
 cat compile.sh
 mv compile.sh compileDate.sh
 mv compileDate.sh compileBigNum.sh
@@ -498,3 +224,277 @@ which startxwin
 xterm
 ps
 xterm &
+cd
+ls
+cd peuler/lib/BigNumber/
+ls
+cd
+cat templates/compileBigNum.sh 
+cat templates/compileBigNum.sh 
+ls templates/
+cat templates/compileDate.sh
+ls
+cd peuler/
+ls
+pro
+ls
+problems/
+cd problems/
+ls
+cd solved/
+la
+ls
+..
+vim .gitignore
+ls
+cd peuler/
+ls
+git status
+git add lib/NumOps/
+..
+find . --recursive -name *.swp
+man find
+man oldfind
+which oldfind
+oldfind . -name *.swp
+git rm peuler/lib/NumOps/src/.NumOps.cpp.swp 
+rm peuler/lib/NumOps/src/.NumOps.cpp.swp 
+ls
+git status
+git commit -a 'New NumOps lib'
+git commit 'New NumOps lib' -a
+git commit -a -m'New NumOps lib' 
+git status
+git log
+ls
+cd templates/
+ls
+...
+cd
+ls
+cd peuler/
+ls
+cd lib/NumOps/src/
+ls
+vim NumOps.h
+./compile.sh 
+..
+ls
+..
+ls
+cd
+ls
+cd templates/
+ls
+cat compileBigNum.sh 
+vim init_workspace.sh
+ls
+chmod 777 init_workspace.sh 
+./init_workspace.sh 
+vim init_workspace.sh 
+./init_workspace.sh 
+vim init_workspace.sh 
+mv init_workspace.sh ..
+ls
+..
+ls
+man source
+source -help
+help source
+vim init_workspace.sh 
+vim init_workspace.sh 
+vim init_workspace.sh 
+vim init_workspace.sh 
+xterm
+which x-server
+which xserver
+which x-org*
+which x*
+which *x*
+which xterm
+which xorg-server
+xorg-server
+startxwin
+which startxwin
+ls /usr/bin/startxwin
+ls
+cd peuler/
+ls
+mintty &
+ls
+lslslsl
+sl
+alias
+ls
+cd problems/
+ls
+..
+cd lib
+ls
+cd NumOps/
+ls
+cd src
+ls
+cat compile.sh 
+..
+.
+..
+ls
+..
+ls
+cd problems/
+ls
+ls
+..
+ls
+cd lib
+ls
+cd NumOps/
+ls
+cd src
+vim NumOps.h
+ls
+./compile.sh 
+cat compile.sh 
+vim compile.sh 
+man g++
+vim compile.sh 
+./compile.sh 
+ls
+vim compile.sh 
+..
+ls
+..
+ls
+cd BigNumber/
+ls
+cd src/
+ls
+cat compile.sh 
+./compile.sh 
+vim BigNumber.cpp +57
+ls
+git status
+ls
+git branch -a
+git checkout BigNumber.cpp
+git checkout BigNumber.h
+git checkout compile.sh
+./compile.sh 
+vim BigNumber.cpp
+fg
+fg
+l.
+rm .*.swp
+l.
+ls
+./compile.sh 
+git status
+vim BigNumber.cpp
+./compile.sh 
+ls
+..
+cat src/compile.sh 
+ls
+..
+ls
+cd NumOps/
+head ../BigNumber/src/*cpp
+vim NumOps.cpp
+cd src/
+vim NumOps.cpp
+./compile.sh 
+vim NumOps.cpp
+./compile.sh 
+ls
+..
+ls
+..
+ls
+..
+ls
+cd problems/
+sl
+ls
+..
+..
+ls
+vim .bash_aliases 
+ls
+cd peuler/
+ls
+cd problems/
+ls
+ls
+mkdir 29_DistinctPowers
+cd 29_DistinctPowers/
+ls
+ls ~/templates/
+cp ~/templates/vanillacompile.cpp main.cpp
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+which dialog
+man tr
+source ~/init_workspace.sh 
+man tr
+man tr
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+man r
+man tr
+source ~/init_workspace.sh 
+ls
+cat ~/templates/compileBigNum.sh 
+cat ~/templates/compileBigNum.sh
+xterm &
+mintty &
+ls
+ls
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh 
+ls
+cat compile.
+rm compile.sh 
+source ~/init_workspace.sh 
+ls
+cd compile.sh 
+cat compile.sh 
+rm compile.sh  
+source ~/init_workspace.sh 
+ls
+cat compile.sh 
+rm compile.sh  
+source ~/init_workspace.sh 
+cat compile.sh 
+rm compile.sh  
+source ~/init_workspace.sh 
+cat compile.sh 
+source ~/init_workspace.sh 
+source ~/init_workspace.sh BigNumber Date
+source ~/init_workspace.sh BigNumber Date
+cat compile.sh 
+source ~/init_workspace.sh BigNumber
+cat compile.sh 
+ls
+ls
+cat main.cpp in
+cat main.cpp 
+ls
+./comp
+man set
+set -help
+set --help
+man set
+man -s 1 set
+man -s 2 set
+man -s 3 set
+man -s 7 set
+man chmod

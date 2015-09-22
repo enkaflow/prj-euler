@@ -1,4 +1,5 @@
 #include "NumOps.h"
+#include <math.h>
 
 namespace kdubs {
     bool isPrime(int n) {
@@ -8,6 +9,11 @@ namespace kdubs {
         }
         return true;
     }
+
+    bool isSquare(int n) {
+        return sqrt(n) == floor(sqrt(n));
+    }  
+
     int digitSum(int n) {
         int sum = 0;
         if(n < 0) return -1;
